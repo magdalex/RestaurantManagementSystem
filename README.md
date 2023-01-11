@@ -1,30 +1,30 @@
 # RestaurantManagementSystem
 
-GitHub repository link: https://github.com/magdalex/RestaurantManagementSystem
+GitHub repository link: https://github.com/magdalex/RestaurantManagementSystem  
 
-Group name: RestaurantManagementSystem
-Dennis Joseph Mayuga (Student ID: 2295238)
-GitHub username: dennismayuga
+#### Group name: RestaurantManagementSystem  
+Dennis Joseph Mayuga (Student ID: 2295238)  
+GitHub username: dennismayuga  
 
-Alex Magda (Student ID: 2295271)
-GitHub username: magdalex
+Alex Magda (Student ID: 2295271)  
+GitHub username: magdalex  
 
-Chaohao Qiu（Student ID:2295258) 
-GitHub username: Chiuchiu1213
+Chaohao Qiu（Student ID:2295258)   
+GitHub username: Chiuchiu1213  
 
-Project title: Super Awesome Restaurant Management System
+#### Project title: Super Awesome Restaurant Management System  
 
 ### Project Scope:
 
 ## Features of the selected project:
-Employee accounts and login system (Waiters)
-Restaurant layout (table selection, info)
-POS system to add items, pay total
-Restaurant inventory
+Employee accounts and login system (Waiters)  
+Restaurant layout (table selection, info)  
+POS system to add items, pay total  
+Restaurant inventory  
 
 ## End users:
-Waiters
-Restaurant Employees
+Waiters  
+Restaurant Employees  
 
 ## User Stories:
 As a waiter, I want an employee account so tables assigned to me cannot be edited by other waiters.  
@@ -57,15 +57,15 @@ Accounting Management
 Communication Management  
 
 ## Who is going to be benefitted by using this project?
-Restaurant Employees (Waiters, Chef, Management, Accountant)
+Restaurant Employees (Waiters, Chef, Management, Accountant)  
 ## Additional third-party actors/companies that are going to use this project?
-Restaurant Customers  (indirectly – better service/more efficient service)
+Restaurant Customers  (indirectly – better service/more efficient service)  
 
 ## Platforms and software applications that will be used at the time of developing the project:	
-C# .Net Framework: 7.0
-MSSQL: 15.0.2
-XAML WPF 4.5
-Git 2.37.1
+C# .Net Framework: 7.0  
+MSSQL: 15.0.2  
+XAML WPF 4.5  
+Git 2.37.1  
 
 
 
