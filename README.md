@@ -26,7 +26,7 @@ Restaurant inventory
 Waiters  
 Restaurant Employees  
 
-## User Stories:
+## Integration of the End users with the project (user stories):
 As a waiter, I want an employee account so tables assigned to me cannot be edited by other waiters.  
 As a waiter, I want an employee account so I receive the accurate amount of tips I am owed.  
 As a waiter, I want an employee account so my hours can be accurately tracked so I can be paid my wage accurately.  
@@ -46,7 +46,7 @@ As a manager, I want to know the total sales by the end of the day to track prof
 As a manager, I want to know the quantity of each item sold periodically to manage inventory levels and budget plans.   
 As an accountant, I want to know the sales, taxes payables.  
 
-## Areas Covered
+## Areas Covered:
 Order Management  
 Time Management  
 Inventory/Resource Management  
