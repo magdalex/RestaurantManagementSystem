@@ -10,10 +10,19 @@
     <Compile Update="CHECKOUTPAGE.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CREATEACCOUNT.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LOGINPAGE.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MENUPAGE.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MenuPOPUP.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SALESHISTORY.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SPECIFICTABLEPAGE.xaml.cs">
@@ -27,6 +36,9 @@
     <Page Update="CHECKOUTPAGE.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CREATEACCOUNT.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LOGINPAGE.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -34,6 +46,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MENUPAGE.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MenuPOPUP.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SALESHISTORY.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SPECIFICTABLEPAGE.xaml">

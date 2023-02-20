@@ -13,6 +13,7 @@
         <Label Content="WAITER ID:" HorizontalAlignment="Left" Margin="246,114,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="PASSWORD:" HorizontalAlignment="Left" Margin="241,0,0,0" VerticalAlignment="Center" FontSize="20"/>
         <Button x:Name="closeButton" Content="CLOSE" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="closeButton_Click"/>
+        <Button x:Name="createButton" Content="CREATE ACCOUNT" HorizontalAlignment="Left" Margin="21,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="createButton_Click"/>
 
     </Grid>
 </Window>

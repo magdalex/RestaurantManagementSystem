@@ -27,15 +27,17 @@ namespace RMSWPF
         //go to MAIN PAGE
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
+            TABLELAYOUTPAGE layout = new TABLELAYOUTPAGE();
             this.Visibility = Visibility.Hidden;
-            main.Show();
+            layout.Show();
         }
         
-        //reminder what's on the menu, popup that doesn't close the specific table page?
+        //reminder what's on the menu, popup that doesn't close the specific table page
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            MenuPOPUP menu = new MenuPOPUP();
+            this.Visibility = Visibility.Visible; //this will allow a second window to open, without closing the original table window, so one can see the menu at the same time
+            menu.Show();
         }
 
         //adds item in text boxes to grid, updates final price textbox

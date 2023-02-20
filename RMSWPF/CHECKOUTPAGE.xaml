@@ -11,7 +11,7 @@
         <Button x:Name="creditButton" Content="CREDIT" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="creditButton_Click"/>
         <Button x:Name="cashButton" Content="CASH" HorizontalAlignment="Left" Margin="550,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="cashButton_Click"/>
         <Button x:Name="calculateButton" Content="CALCULATE" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="calculateButton_Click"/>
-        <Button x:Name="backButton" Content="BACK TO ADMIN" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
+        <Button x:Name="backButton" Content="BACK TO ORDER" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
         <Label Content="ORDER FOR:" HorizontalAlignment="Left" Margin="246,15,0,0" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="orderForBox" HorizontalAlignment="Left" Margin="372,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
         <Label Content="FINAL PRICE&#xD;&#xA;BEFORE TIP:" HorizontalAlignment="Left" Margin="79,94,0,0" VerticalAlignment="Top" FontSize="20"/>

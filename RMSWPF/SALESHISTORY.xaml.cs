@@ -38,6 +38,8 @@ namespace RMSWPF
         {
             //save whats in the text boxes into SalesHistoryTable
             //close app
+            MessageBox.Show("Closing terminal for the day...");
+            this.Close();
         }
     }
 }

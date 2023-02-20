@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="SPECIFICTABLEPAGE" Height="450" Width="800">
     <Grid>
-        <Button x:Name="backButton" Content="BACK TO ADMIN" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
-        <Button x:Name="checkoutButton" Content="CHECKOUT" HorizontalAlignment="Left" Margin="535,354,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20"/>
+        <Button x:Name="backButton" Content="BACK TO LAYOUT" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
+        <Button x:Name="checkoutButton" Content="CHECKOUT" HorizontalAlignment="Left" Margin="535,354,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="checkoutButton_Click"/>
         <Label Content="CUSTOMER NAME:" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="WAITER NAME:" HorizontalAlignment="Left" Margin="221,15,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="ITEM NAME:" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="ITEM PRICE:" HorizontalAlignment="Left" Margin="323,149,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.998,0.599"/>
         <Label Content="DETAIL:" HorizontalAlignment="Left" Margin="32,211,0,0" VerticalAlignment="Top" FontSize="20"/>
         <DataGrid x:Name="tableOrder" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,284,339,10"/>
-        <Button x:Name="menuButton" Content="MENU" HorizontalAlignment="Left" Margin="602,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20"/>
+        
         <TextBox x:Name="customerNameBox" HorizontalAlignment="Left" Margin="210,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
         <TextBox x:Name="waiterNameBox" HorizontalAlignment="Left" Margin="388,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
         <TextBox x:Name="itemNameBox" HorizontalAlignment="Left" Margin="135,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
@@ -25,7 +25,12 @@
         <Label Content="FINAL PRICE:" HorizontalAlignment="Left" Margin="482,294,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.998,0.599"/>
         <Label Content="TABLE NUMBER:" HorizontalAlignment="Left" Margin="434,74,0,0" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="tableNumberBox" HorizontalAlignment="Left" Margin="634,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
-        <Button x:Name="addButton" Content="ADD" HorizontalAlignment="Left" Margin="634,145,0,0" VerticalAlignment="Top" Height="109" Width="156" FontSize="20"/>
+        <Button x:Name="addButton" Content="ADD" HorizontalAlignment="Left" Margin="634,145,0,0" VerticalAlignment="Top" Height="109" Width="156" FontSize="20" Click="addButton_Click"/>
+
+        <StackPanel>
+            <Button x:Name="menuButton" Content="MENU" HorizontalAlignment="Left" Margin="602,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="menuButton_Click"/>
+        </StackPanel>
+        
 
     </Grid>
 </Window>
