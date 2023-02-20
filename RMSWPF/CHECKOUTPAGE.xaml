@@ -1,0 +1,26 @@
+﻿<Window x:Class="RMSWPF.CHECKOUTPAGE"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RMSWPF"
+        mc:Ignorable="d"
+        Title="CHECKOUTPAGE" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="debitButton" Content="DEBIT/VISA" HorizontalAlignment="Left" Margin="70,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="debitButton_Click"/>
+        <Button x:Name="creditButton" Content="CREDIT" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="creditButton_Click"/>
+        <Button x:Name="cashButton" Content="CASH" HorizontalAlignment="Left" Margin="550,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="cashButton_Click"/>
+        <Button x:Name="calculateButton" Content="CALCULATE" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="calculateButton_Click"/>
+        <Button x:Name="backButton" Content="BACK TO ADMIN" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
+        <Label Content="ORDER FOR:" HorizontalAlignment="Left" Margin="246,15,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="orderForBox" HorizontalAlignment="Left" Margin="372,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
+        <Label Content="FINAL PRICE&#xD;&#xA;BEFORE TIP:" HorizontalAlignment="Left" Margin="79,94,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="priceBeforeTipBox" HorizontalAlignment="Left" Margin="231,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
+        <Label Content="TIP?:" HorizontalAlignment="Left" Margin="478,107,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="tipBox" HorizontalAlignment="Left" Margin="550,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
+        <Label Content="FINAL PRICE:" HorizontalAlignment="Left" Margin="200,250,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="finalPriceBox" HorizontalAlignment="Left" Margin="400,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
+        <Label Content="METHOD OF PAYMENT:" HorizontalAlignment="Center" Margin="0,310,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
