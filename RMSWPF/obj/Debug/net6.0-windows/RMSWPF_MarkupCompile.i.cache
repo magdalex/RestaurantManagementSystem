@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\
 RMSWPF
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\App.xaml
-71323358890
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\App.xaml
+9-762850458
 
-111070113928
-194-2004305220
-CHECKOUTPAGE.xaml;LOGINPAGE.xaml;MainWindow.xaml;MENUPAGE.xaml;SALESHISTORY.xaml;SPECIFICTABLEPAGE.xaml;TABLELAYOUTPAGE.xaml;
+15-1750180845
+194237474483
+CheckoutPage.xaml;CreateAccount.xaml;LoginPage.xaml;MainWindow.xaml;MenuPage.xaml;MenuPopUp.xaml;SalesHistory.xaml;SpecificTablePage.xaml;TableLayoutPage.xaml;
 
-True
+False
 

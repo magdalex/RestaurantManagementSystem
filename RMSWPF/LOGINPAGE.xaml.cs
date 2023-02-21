@@ -37,5 +37,12 @@ namespace RMSWPF
         {
             //close program
         }
+
+        private void registerButton_Click(object sender, RoutedEventArgs e)
+        {
+            CREATEACCOUNT create = new CREATEACCOUNT();
+            this.Visibility = Visibility.Hidden;
+            create.Show();
+        }
     }
 }

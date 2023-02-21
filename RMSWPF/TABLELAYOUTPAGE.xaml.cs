@@ -31,5 +31,12 @@ namespace RMSWPF
             this.Visibility = Visibility.Hidden;
             main.Show();
         }
+
+        private void table1Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE();
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
     }
 }

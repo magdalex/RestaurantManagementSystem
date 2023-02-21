@@ -7,11 +7,8 @@
         mc:Ignorable="d"
         Title="TABLELAYOUTPAGE" Height="450" Width="800">
     <Grid>
-        <Button x:Name="allButton" Content="ALL" HorizontalAlignment="Left" Margin="54,80,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20"/>
-        <Button x:Name="availableButton" Content="AVAILABLE" HorizontalAlignment="Left" Margin="301,80,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20"/>
-        <Button x:Name="occupiedButton" Content="OCCUPIED" HorizontalAlignment="Left" Margin="542,80,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20"/>
         <Button x:Name="backButton" Content="BACK TO ADMIN" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
-        <Button x:Name="table1Button" Content="TABLE1" HorizontalAlignment="Left" Margin="82,168,0,0" VerticalAlignment="Top" Height="95" Width="95" FontSize="20"/>
+        <Button x:Name="table1Button" Content="TABLE1" HorizontalAlignment="Left" Margin="82,168,0,0" VerticalAlignment="Top" Height="95" Width="95" FontSize="20" Click="table1Button_Click"/>
         <Button x:Name="table2Button" Content="TABLE2" HorizontalAlignment="Left" Margin="82,296,0,0" VerticalAlignment="Top" Height="95" Width="95" FontSize="20"/>
         <Button x:Name="Table3Button" Content="TABLE3" HorizontalAlignment="Left" Margin="220,168,0,0" VerticalAlignment="Top" Height="95" Width="95" FontSize="20"/>
         <Button x:Name="Table4Button" Content="TABLE4" HorizontalAlignment="Left" Margin="356,168,0,0" VerticalAlignment="Top" Height="95" Width="95" FontSize="20"/>

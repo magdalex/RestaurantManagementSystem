@@ -51,5 +51,12 @@ namespace RMSWPF
             this.Visibility = Visibility.Hidden;
             checkout.Show();
         }
+
+        private void menuButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            MenuPOPUP menuPop = new MenuPOPUP();
+            this.Visibility = Visibility.Visible;
+            menuPop.Show();
+        }
     }
 }
