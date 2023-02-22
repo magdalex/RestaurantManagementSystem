@@ -20,72 +20,65 @@ CREATE TABLE [dbo].[SalesHisotryTable] (
 );
 
 CREATE TABLE [dbo].[Table1] (
-    [Table_Number] INT          DEFAULT ((1)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 
 CREATE TABLE [dbo].[Table2] (
-    [Table_Number] INT          DEFAULT ((2)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 
 CREATE TABLE [dbo].[Table3] (
-    [Table_Number] INT          DEFAULT ((3)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 
 CREATE TABLE [dbo].[Table4] (
-    [Table_Number] INT          DEFAULT ((4)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 
 CREATE TABLE [dbo].[Table5] (
-    [Table_Number] INT          DEFAULT ((5)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 
 CREATE TABLE [dbo].[Table6] (
-    [Table_Number] INT          DEFAULT ((6)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 
 CREATE TABLE [dbo].[Table7] (
-    [Table_Number] INT          DEFAULT ((7)) NOT NULL,
     [FoodID]       INT          NOT NULL,
     [FoodName]     VARCHAR (50) NULL,
     [Price]        FLOAT (53)   NOT NULL,
     [Quantity]     INT          NULL,
     [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
-    PRIMARY KEY CLUSTERED ([Table_Number] ASC)
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
 );
 

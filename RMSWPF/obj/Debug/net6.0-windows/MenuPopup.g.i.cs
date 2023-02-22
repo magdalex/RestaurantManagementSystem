@@ -157,7 +157,7 @@ namespace RMSWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RMSWPF;component/menupopup.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RMSWPF;V1.0.0.0;component/menupopup.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MenuPopUp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

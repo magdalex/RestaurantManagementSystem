@@ -197,7 +197,7 @@ namespace RMSWPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/RMSWPF;component/specifictablepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/RMSWPF;V1.0.0.0;component/specifictablepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SpecificTablePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
