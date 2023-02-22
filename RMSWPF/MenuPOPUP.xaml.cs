@@ -83,30 +83,5 @@ namespace RMSWPF
             menuGrid.ItemsSource = food; //puts it straight into the datagrid
 
         }
-
-        private async void insertButton_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                var tableCart = new TableCart()
-                {
-                    FoodID = int.Parse(foodID.Text),
-                    FoodName = foodName.Text,
-                    Price = float.Parse(price.Text),
-                    qtyCart = int.Parse(quantity.Text)
-                };
-
-                var response = await client.PostAsJsonAsync("TableCart/AddToCart/", tableCart);
-
-                MessageBox.Show(response.StatusCode.ToString());
-
-
-                RefreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
-            }
-            catch
-            {
-                MessageBox.Show("Insert operation failed.");
-            }
-        }
     }
 }

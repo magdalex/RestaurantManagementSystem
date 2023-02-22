@@ -101,6 +101,31 @@ namespace RMSWPF
 
         }
 
+        private async void insertButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var tableCart = new TableCart()
+                {
+                    FoodID = int.Parse(foodID.Text),
+                    FoodName = foodName.Text,
+                    Price = float.Parse(price.Text),
+                    qtyCart = int.Parse(quantity.Text)
+                };
+
+                var response = await client.PostAsJsonAsync("TableCart/AddToCart/", tableCart);
+
+                MessageBox.Show(response.StatusCode.ToString());
+
+
+                refreshDataButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
+            }
+            catch
+            {
+                MessageBox.Show("Insert operation failed.");
+            }
+        }
+
         private async void updateTableItem_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -109,7 +134,7 @@ namespace RMSWPF
                 tableCart.FoodID = int.Parse(foodID.Text);
                 tableCart.FoodName = foodName.Text;
                 tableCart.Price = float.Parse(price.Text);
-                tableCart.qtyCart = int.Parse(inventory.Text);
+                tableCart.qtyCart = int.Parse(quantity.Text);
 
                 HttpResponseMessage response = await client.PutAsJsonAsync<TableCart>("TableCart/UpdateCartItem/" + tableCart.FoodID, tableCart);
 
