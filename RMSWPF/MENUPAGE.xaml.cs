@@ -78,7 +78,7 @@ namespace RMSWPF
 
                 var response = await client.PostAsJsonAsync("Menu/AddItem/", menuItems);
 
-                MessageBox.Show("Inserted food successfully into the database.");
+                MessageBox.Show(response.StatusCode.ToString());
 
 
                 refreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
@@ -151,9 +151,9 @@ namespace RMSWPF
         {
 
             var response = await client.GetStringAsync("Menu/SeeMenu/"); //this is the path that gets called
-            var products = JsonConvert.DeserializeObject<Response>(response).listMenuItem; //maps fields of json to response class
+            var food = JsonConvert.DeserializeObject<Response>(response).listMenuItem; //maps fields of json to response class
 
-            menuGrid.ItemsSource = products; //puts it straight into the datagrid
+            menuGrid.ItemsSource = food; //puts it straight into the datagrid
 
         }
     }
