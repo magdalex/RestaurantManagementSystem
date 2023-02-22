@@ -20,7 +20,7 @@
             <Label x:Name="price1" Content="Price" HorizontalAlignment="Left" Margin="304,70,0,0" VerticalAlignment="Top" FontSize="20"/>
             <TextBox x:Name="price" HorizontalAlignment="Left" Margin="304,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
             <Label x:Name="quantity1" Content="Quantity" HorizontalAlignment="Left" Margin="449,70,0,0" VerticalAlignment="Top" FontSize="20"/>
-            <TextBox x:Name="inventory" HorizontalAlignment="Left" Margin="449,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+            <TextBox x:Name="quantity" HorizontalAlignment="Left" Margin="449,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
 
         </Grid>
     </Grid>

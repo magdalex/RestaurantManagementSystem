@@ -88,44 +88,25 @@ namespace RMSWPF
         {
             try
             {
-                var menuItems = new MenuItems()
+                var tableCart = new TableCart()
                 {
                     FoodID = int.Parse(foodID.Text),
                     FoodName = foodName.Text,
                     Price = float.Parse(price.Text),
-                    Inventory = int.Parse(inventory.Text)
+                    qtyCart = int.Parse(quantity.Text)
                 };
 
-                var response = await client.PostAsJsonAsync("Table/AddItem/", menuItems);
+                var response = await client.PostAsJsonAsync("TableCart/AddToCart/", tableCart);
 
                 MessageBox.Show(response.StatusCode.ToString());
 
 
-                refreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
+                RefreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
             }
             catch
             {
                 MessageBox.Show("Insert operation failed.");
             }
-
-        }
-
-        //UPDATE ITEM
-        private void updateButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        //DELETE ITEM
-        private void deleteButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        //SELECT ITEM
-        private void refreshButton_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

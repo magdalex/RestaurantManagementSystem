@@ -8,16 +8,26 @@
         Title="SPECIFICTABLEPAGE" Height="450" Width="800">
     <Grid>
         <Button x:Name="backButton" Content="BACK TO ADMIN" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>
-        <Button x:Name="checkoutButton" Content="CHECKOUT" HorizontalAlignment="Left" Margin="535,354,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20"/>
+        <Button x:Name="checkoutButton" Content="CHECKOUT" HorizontalAlignment="Left" Margin="534,380,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="checkoutButton_Click"/>
         <Label Content="WAITER NAME:" HorizontalAlignment="Left" Margin="221,15,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <DataGrid x:Name="tableOrder" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,96,339,10"/>
-        <Button x:Name="menuButton" Content="Add items from Menu" HorizontalAlignment="Left" Margin="577,77,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" Click="menuButton_Click_1"/>
+        <DataGrid x:Name="tableCartGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,173,339,10"/>
+        <Button x:Name="menuButton" Content="Add items from Menu" HorizontalAlignment="Left" Margin="576,118,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" Click="menuButton_Click"/>
         <TextBox x:Name="waiterNameBox" HorizontalAlignment="Left" Margin="388,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
-        <TextBox x:Name="finalPriceBox" HorizontalAlignment="Left" Margin="634,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
-        <Label Content="FINAL PRICE:" HorizontalAlignment="Left" Margin="482,294,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.998,0.599"/>
-        <Button x:Name="updateTableItem" Content="Update Table Item" HorizontalAlignment="Left" Margin="577,150,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" />
-        <Button x:Name="deleteTableItem" Content="Delete Table Item" HorizontalAlignment="Left" Margin="577,214,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" />
-        <Button x:Name="connect" Content="Connect" HorizontalAlignment="Left" Margin="577,15,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" />
+        <TextBox x:Name="finalPriceBox" HorizontalAlignment="Left" Margin="633,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
+        <Label Content="FINAL PRICE:" HorizontalAlignment="Left" Margin="481,320,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.998,0.599"/>
+        <Button x:Name="updateTableItem" Content="Update Table Item" HorizontalAlignment="Left" Margin="576,191,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" Click="updateTableItem_Click" />
+        <Button x:Name="deleteTableItem" Content="Delete Table Item" HorizontalAlignment="Left" Margin="576,255,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" Click="deleteTableItem_Click" />
+        <Button x:Name="connect" Content="Connect" HorizontalAlignment="Left" Margin="576,56,0,0" VerticalAlignment="Top" Height="46" Width="213" FontSize="20" Click="connect_Click" />
+        <Label x:Name="foodID1" Content="Food ID" HorizontalAlignment="Left" Margin="13,69,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="foodID" HorizontalAlignment="Left" Margin="13,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Label x:Name="foodName1" Content="Food Name" HorizontalAlignment="Left" Margin="154,69,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="foodName" HorizontalAlignment="Left" Margin="154,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Label x:Name="price1" Content="Price" HorizontalAlignment="Left" Margin="293,69,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="price" HorizontalAlignment="Left" Margin="293,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Label x:Name="quantity1" Content="Quantity" HorizontalAlignment="Left" Margin="438,69,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="inventory" HorizontalAlignment="Left" Margin="438,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Label Content="Table Number" HorizontalAlignment="Left" Margin="567,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="tableNumber" HorizontalAlignment="Left" Margin="721,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Height="42" FontSize="20"/>
 
     </Grid>
 </Window>
