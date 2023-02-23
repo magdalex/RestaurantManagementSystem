@@ -23,7 +23,10 @@ namespace RMSWPF
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
+
 
         //go to MENU PAGE
         private void menuButton_Click(object sender, RoutedEventArgs e)
@@ -49,12 +52,16 @@ namespace RMSWPF
             layout.Show();
         }
 
+
+
+
         //go to SALES HISTORY PAGE
         private void salesHistoryButton_Click(object sender, RoutedEventArgs e)
         {
+            
             SALESHISTORY history = new SALESHISTORY();
             this.Visibility = Visibility.Hidden;
-            history.Show();
+            history.Show(); 
         }
     }
 }

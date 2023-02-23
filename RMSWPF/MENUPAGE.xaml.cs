@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using Newtonsoft.Json;
+using RMSAPI.Models;
+using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -15,8 +16,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Newtonsoft.Json;
-using RMSWPF.Models;
 
 namespace RMSWPF
 {
@@ -27,12 +26,12 @@ namespace RMSWPF
     {
         SqlConnection con;
         HttpClient client = new HttpClient();
-        
         public MENUPAGE()
         {
-            client.BaseAddress = new Uri("https://localhost:7083/api/");
+            client.BaseAddress = new Uri("https://localhost:7083/api/"); //this is the base path for me that got auto-generated-- the port number may be different for you
             client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json") );
+            client.DefaultRequestHeaders.Accept.Add(
+                new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
             InitializeComponent();
         }
 
@@ -47,61 +46,92 @@ namespace RMSWPF
         //connect to database
         private void connectButton_Click(object sender, RoutedEventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-VMP9DN3;Initial Catalog=RMS;Integrated Security=True;Pooling=False";
-            con = new SqlConnection(connectionString);
-            con.Open();
-            MessageBox.Show("Connection established to database successfully.");
-            con.Close();
+            try
+            {
+                string connectionString = "Data Source=DESKTOP-VMP9DN3;Initial Catalog=RMSCHAOHAO;Integrated Security=True;TrustServerCertificate=True"; //change this to your connection string!
+                con = new SqlConnection(connectionString);
+                con.Open();
+                MessageBox.Show("Connection established successfully.");
+                con.Close();
+
+                refreshButton_Click(sender, e);
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
         //CREATE ITEM
         private async void insertButton_Click(object sender, RoutedEventArgs e)
         {
-            var menuItem = new MenuItems()
+            try
             {
-                FoodName = nameBox.Text,
-                Category = categoryBox.Text,
-                Price = float.Parse(priceBox.Text)
-            };
+                var menuItems = new MenuItems()
+                {
+                    FoodID = int.Parse(foodID.Text),
+                    FoodName = foodName.Text,
+                    Price = float.Parse(price.Text),
+                    Inventory = int.Parse(inventory.Text)
+                };
 
-            var response = await client.PostAsJsonAsync("Menu/AddItem", menuItem);
+                var response = await client.PostAsJsonAsync("Menu/AddItem/", menuItems);
 
-            MessageBox.Show("Inserted item successfully into the menu.");
+                MessageBox.Show(response.StatusCode.ToString());
 
-            refreshButton_Click(sender, e);
+
+                refreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
+            }
+            catch
+            {
+                MessageBox.Show("Insert operation failed.");
+            }
+
         }
 
         //UPDATE ITEM
         private async void updateButton_Click(object sender, RoutedEventArgs e)
         {
-            var menuItem = new MenuItems()
+            try
             {
-                FoodName = nameBox.Text,
-                Category = categoryBox.Text,
-                Price = float.Parse(priceBox.Text)
-            };
+                MenuItems menuItems = new MenuItems();
+                menuItems.FoodID = int.Parse(foodID.Text);
+                menuItems.FoodName = foodName.Text;
+                menuItems.Price = float.Parse(price.Text);
+                menuItems.Inventory = int.Parse(inventory.Text);
 
-            var response = await client.PutAsJsonAsync("Menu/UpdateItem/" + menuItem.FoodName, menuItem);
+                HttpResponseMessage response = await client.PutAsJsonAsync<MenuItems>("Menu/UpdateItem/" + menuItems.FoodID, menuItems);
 
-            MessageBox.Show("Updated menu successfully.");
+                MessageBox.Show("Updated food successfully in the database.");
 
-            refreshButton_Click(sender, e);
+                refreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
+            }
+            catch
+            {
+                MessageBox.Show("Update operation failed.");
+            }
         }
 
         //DELETE ITEM
         private async void deleteButton_Click(object sender, RoutedEventArgs e)
         {
-            var menuItem = new MenuItems()
+            try
             {
-                FoodName = nameBox.Text
-            };
+                var menuItems = new MenuItems()
+                {
+                    FoodID = int.Parse(foodID.Text)
+                };
 
-            var response = await client.DeleteAsync("Menu/DeleteIem/" + menuItem.FoodName);
+                var response = await client.DeleteAsync("Menu/DeleteItem/" + menuItems.FoodID);
+                MessageBox.Show("Deleted food from database.");
 
-            MessageBox.Show("Deleted menu item successfully.");
-
-            refreshButton_Click(sender, e);
+                refreshButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
+            }
+            catch
+            {
+                MessageBox.Show("Delete operation failed.");
+            }
         }
 
         //SELECT ITEM
@@ -109,21 +139,22 @@ namespace RMSWPF
         {
             try
             {
-                this.refreshMenu();
+                this.RefreshProducts(); //calls the refresh method
             }
             catch
             {
-                MessageBox.Show("Could not refresh menu.");
+                MessageBox.Show("Could not refresh inventory.");
             }
+
         }
-
-        //auto refresh method
-        private async void refreshMenu()
+        private async void RefreshProducts() //this method works
         {
-            var response = await client.GetStringAsync("Menu/SeeMenu");
-            var menuItem = JsonConvert.DeserializeObject<Response>(response).listMenu;
 
-            menuGrid.ItemsSource = menuItem;
+            var response = await client.GetStringAsync("Menu/SeeMenu/"); //this is the path that gets called
+            var food = JsonConvert.DeserializeObject<Response>(response).listMenuItem; //maps fields of json to response class
+
+            menuGrid.ItemsSource = food; //puts it straight into the datagrid
+
         }
     }
 }

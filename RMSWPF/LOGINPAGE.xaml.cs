@@ -25,7 +25,7 @@ namespace RMSWPF
         }
 
         //go to MAIN PAGE
-        private void loginButton_Click(object sender, RoutedEventArgs e) //when this is pressed, establish connection so we dont need an extra connect button, it looks bad
+        private void loginButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow main = new MainWindow();
             this.Visibility = Visibility.Hidden;
@@ -36,11 +36,9 @@ namespace RMSWPF
         private void closeButton_Click(object sender, RoutedEventArgs e)
         {
             //close program
-            MessageBox.Show("Closing application...");
-            this.Close();
         }
 
-        private void createButton_Click(object sender, RoutedEventArgs e)
+        private void registerButton_Click(object sender, RoutedEventArgs e)
         {
             CREATEACCOUNT create = new CREATEACCOUNT();
             this.Visibility = Visibility.Hidden;

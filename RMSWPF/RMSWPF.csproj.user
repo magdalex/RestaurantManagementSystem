@@ -10,19 +10,10 @@
     <Compile Update="CHECKOUTPAGE.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CREATEACCOUNT.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="LOGINPAGE.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="MENUPAGE.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="MenuPOPUP.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="SALESHISTORY.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SPECIFICTABLEPAGE.xaml.cs">
@@ -33,31 +24,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="CHECKOUTPAGE.xaml">
+    <Page Update="CheckoutPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="CREATEACCOUNT.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="LOGINPAGE.xaml">
+    <Page Update="LoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MENUPAGE.xaml">
+    <Page Update="MenuPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MenuPOPUP.xaml">
+    <Page Update="SpecificTablePage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="SALESHISTORY.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="SPECIFICTABLEPAGE.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="TABLELAYOUTPAGE.xaml">
+    <Page Update="TableLayoutPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

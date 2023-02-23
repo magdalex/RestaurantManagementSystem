@@ -12,6 +12,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Net.Http;
+using System.Net.Http.Headers;
+
 
 namespace RMSWPF
 {
@@ -20,9 +23,11 @@ namespace RMSWPF
     /// </summary>
     public partial class SALESHISTORY : Window
     {
+        //GlobalValues.TablesServed = totalTableServed.Text;
         public SALESHISTORY()
         {
             InitializeComponent();
+            //this.totalTableServed.Text = "Butts";
         }
 
         //go to MAIN PAGE
@@ -31,6 +36,7 @@ namespace RMSWPF
             MainWindow main = new MainWindow();
             this.Visibility = Visibility.Hidden;
             main.Show();
+
         }
 
         //close app
@@ -38,8 +44,46 @@ namespace RMSWPF
         {
             //save whats in the text boxes into SalesHistoryTable
             //close app
-            MessageBox.Show("Closing terminal for the day...");
-            this.Close();
         }
+
+
+
+////////////=============================================================================//////////////
+        private void refreshButton_Click(object sender, RoutedEventArgs e) 
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://localhost:7083");
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            refreshTotalSales(client);
+            refreshTotalTables(client);
+        }
+
+        private void refreshTotalTables(HttpClient client)
+        {
+            HttpResponseMessage response = client.GetAsync("api/SalesHistory/TotalTables").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                this.totalTableServed.Text = response.Content.ReadAsStringAsync().Result;
+            }
+            else
+            {
+                MessageBox.Show("Error code: " + response.StatusCode);
+            }
+        }
+
+        private void refreshTotalSales(HttpClient client)
+        {
+            HttpResponseMessage response = client.GetAsync("api/SalesHistory/TotalSales").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                this.totalSales.Text = response.Content.ReadAsStringAsync().Result;
+            }
+            else
+            {
+                MessageBox.Show("Error code: " + response.StatusCode);
+            }
+        }
+////////////=============================================================================//////////////
+
     }
 }

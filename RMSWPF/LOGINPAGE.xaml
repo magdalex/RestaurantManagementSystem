@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="LOGINPAGE" Height="450" Width="800">
     <Grid>
-        <Button x:Name="loginButton" Content="LOGIN" HorizontalAlignment="Center" Margin="0,302,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="loginButton_Click"/>
+        <Button x:Name="loginButton" Content="LOGIN" HorizontalAlignment="Left" Margin="318,279,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="loginButton_Click"/>
         <TextBox HorizontalAlignment="Left" Margin="403,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Height="47" FontSize="20"/>
         <TextBox HorizontalAlignment="Left" Margin="403,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
         <Label Content="WAITER ID:" HorizontalAlignment="Left" Margin="246,114,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="PASSWORD:" HorizontalAlignment="Left" Margin="241,0,0,0" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="closeButton" Content="CLOSE" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="closeButton_Click"/>
-        <Button x:Name="createButton" Content="CREATE ACCOUNT" HorizontalAlignment="Left" Margin="21,362,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="createButton_Click"/>
+        <Button x:Name="closeButton" Content="CLOSE" HorizontalAlignment="Left" Margin="572,346,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="closeButton_Click"/>
+        <Button x:Name="registerButton" Content="REGISTER" HorizontalAlignment="Left" Margin="318,346,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="registerButton_Click" />
 
     </Grid>
 </Window>

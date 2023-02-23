@@ -11,6 +11,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using Microsoft.Identity.Client;
+using Microsoft.Data.SqlClient;
 
 namespace RMSWPF
 {
@@ -19,6 +24,9 @@ namespace RMSWPF
     /// </summary>
     public partial class SPECIFICTABLEPAGE : Window
     {
+//        GlobalValues.WaiterName = waiterNameBox.Text;
+//        GlobalValues.FinalPrice = finalPriceBox.Text;
+
         public SPECIFICTABLEPAGE()
         {
             InitializeComponent();
@@ -27,17 +35,15 @@ namespace RMSWPF
         //go to MAIN PAGE
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            TABLELAYOUTPAGE layout = new TABLELAYOUTPAGE();
+            MainWindow main = new MainWindow();
             this.Visibility = Visibility.Hidden;
-            layout.Show();
+            main.Show();
         }
         
-        //reminder what's on the menu, popup that doesn't close the specific table page
+        //reminder what's on the menu, popup that doesn't close the specific table page?
         private void menuButton_Click(object sender, RoutedEventArgs e)
         {
-            MenuPOPUP menu = new MenuPOPUP();
-            this.Visibility = Visibility.Visible; //this will allow a second window to open, without closing the original table window, so one can see the menu at the same time
-            menu.Show();
+            
         }
 
         //adds item in text boxes to grid, updates final price textbox
@@ -46,12 +52,45 @@ namespace RMSWPF
 
         }
 
-        //go to checkout page
-        private void checkoutButton_Click(object sender, RoutedEventArgs e)
+ ////////////=============================================================================//////////////
+        private async void checkoutButton_Click(object sender, RoutedEventArgs e)
         {
-            CHECKOUTPAGE checkout = new CHECKOUTPAGE();
-            this.Visibility = Visibility.Hidden;
-            checkout.Show();
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://localhost:7083");
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            var myContent = JsonConvert.SerializeObject("99");
+            var stringContent = new StringContent(myContent.ToString(), Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await client.PostAsync("api/SalesHistory/UpdateSalesHistory", stringContent);
+            if (response.IsSuccessStatusCode)
+            {
+                string TABLENAME = "TABLE1";
+                deleteRecords(TABLENAME);
+            }
+            else
+            {
+                MessageBox.Show("Error code: " + response.StatusCode);
+            }
+        }
+
+        private static HttpResponseMessage deleteRecords(string TABLENAME) //? Not sure how to delete individual tables, because I don't see y'all's code
+        {
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://localhost:7083");
+            client.DefaultRequestHeaders.Accept.Clear();
+            HttpResponseMessage response = client.DeleteAsync(TABLENAME).Result;
+            return response;
+        }
+
+ ////////////=============================================================================//////////////
+
+
+
+        private void menuButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            MenuPOPUP menuPop = new MenuPOPUP();
+            this.Visibility = Visibility.Visible;
+            menuPop.Show();
         }
     }
 }

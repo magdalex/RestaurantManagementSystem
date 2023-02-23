@@ -9,13 +9,18 @@
     <Grid>
         <Grid>
             <Button x:Name="closeButton" Content="CLOSE" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="closeButton_Click"/>
-            <Button x:Name="insertButton" Content="ADD ITEM" HorizontalAlignment="Left" Margin="574,123,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="insertButton_Click"/>
-            <Button x:Name="updateButton" Content="UPDATE" HorizontalAlignment="Left" Margin="574,201,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="updateButton_Click"/>
-            <Button x:Name="deleteButton" Content="DELETE" HorizontalAlignment="Left" Margin="574,278,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="deleteButton_Click"/>
-            <Button x:Name="refreshButton" Content="REFRESH" HorizontalAlignment="Left" Margin="574,353,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="refreshButton_Click"/>
-            <Button x:Name="connectButton" Content="CONNECT" HorizontalAlignment="Left" Margin="574,47,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="connectButton_Click"/>
-            <DataGrid x:Name="menuGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,78,289,10" FontSize="20"/>
-            <Label Content="MENU" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Button x:Name="addToTable" Content="Add to Table" HorizontalAlignment="Left" Margin="627,123,0,0" VerticalAlignment="Top" Height="46" Width="135" FontSize="20" Click="insertButton_Click"/>
+            <Button x:Name="connectButton" Content="CONNECT" HorizontalAlignment="Left" Margin="627,47,0,0" VerticalAlignment="Top" Height="46" Width="135" FontSize="20" Click="connectButton_Click"/>
+            <DataGrid x:Name="menuGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,176,202,10" FontSize="20"/>
+            <Label x:Name="popUpMenu" Content="MENU" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label x:Name="foodID1" Content="Food ID" HorizontalAlignment="Left" Margin="24,70,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBox x:Name="foodID" HorizontalAlignment="Left" Margin="24,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+            <Label x:Name="foodName1" Content="Food Name" HorizontalAlignment="Left" Margin="165,70,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBox x:Name="foodName" HorizontalAlignment="Left" Margin="165,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+            <Label x:Name="price1" Content="Price" HorizontalAlignment="Left" Margin="304,70,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBox x:Name="price" HorizontalAlignment="Left" Margin="304,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+            <Label x:Name="quantity1" Content="Quantity" HorizontalAlignment="Left" Margin="449,70,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <TextBox x:Name="inventory" HorizontalAlignment="Left" Margin="449,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
 
         </Grid>
     </Grid>
