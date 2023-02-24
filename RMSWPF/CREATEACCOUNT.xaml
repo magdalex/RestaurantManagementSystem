@@ -8,8 +8,8 @@
         Title="CREATEACCOUNT" Height="450" Width="800">
     <Grid>
         <Button x:Name="createButton" Content="CREATE" HorizontalAlignment="Center" Margin="0,302,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="createButton_Click"/>
-        <TextBox HorizontalAlignment="Left" Margin="403,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Height="47" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="403,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Margin="403,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="156" Height="47" FontSize="20"/>
+        <TextBox x:Name="WaiterIDTextBox" HorizontalAlignment="Left" Margin="403,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="47" FontSize="20"/>
         <Label Content="NEW WAITER ID:" HorizontalAlignment="Left" Margin="202,119,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="PASSWORD:" HorizontalAlignment="Left" Margin="241,0,0,0" VerticalAlignment="Center" FontSize="20"/>
         <Button x:Name="backButton" Content="BACK TO LOGIN" HorizontalAlignment="Center" Margin="0,363,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="backButton_Click"/>

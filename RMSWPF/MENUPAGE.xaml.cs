@@ -48,7 +48,7 @@ namespace RMSWPF
         {
             try
             {
-                string connectionString = "Data Source=DESKTOP-5DGA5O7\\SQLEXPRESS;Initial Catalog=DesptopAppDevRestaurantSystem;Integrated Security=True;TrustServerCertificate=True;"; //change this to your connection string!
+                string connectionString = "Data Source=DESKTOP-V50PKCU\\SQLEXPRESS;Initial Catalog=RestaurantManagementSystem;Integrated Security=True;TrustServerCertificate=True;"; //change this to your connection string!
                 con = new SqlConnection(connectionString);
                 con.Open();
                 MessageBox.Show("Connection established successfully.");

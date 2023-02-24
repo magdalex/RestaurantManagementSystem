@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[Employee] (
+    [EmployeeID] INT           NOT NULL,
+    [Password]   NVARCHAR (50) NOT NULL,
+    [FName]      NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([EmployeeID] ASC)
+);
+
+INSERT INTO EMPLOYEE VALUES (1,'pw1','Ryan')
+INSERT INTO EMPLOYEE VALUES (2,'pw2','Lloyd')
+INSERT INTO EMPLOYEE VALUES (3,'pw3','Ben')
+INSERT INTO EMPLOYEE VALUES (4,'pw4','Doug')
+INSERT INTO EMPLOYEE VALUES (5,'pw5','Joey')
+INSERT INTO EMPLOYEE VALUES (6,'p26','Anthony')
+INSERT INTO EMPLOYEE VALUES (7,'pw54','Brandon')
+
+DELETE FROM EMPLOYEE where EmployeeID = 7
+
+Select * From EMPLOYEE
+
+delete Employee
+
+Select * from dbo.Employee where EmployeeID = 1
+
+Select * from dbo.Employee where EmployeeID = 1 AND Password = pw
+        */

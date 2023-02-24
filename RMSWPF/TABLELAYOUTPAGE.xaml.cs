@@ -32,9 +32,51 @@ namespace RMSWPF
             main.Show();
         }
 
-        private void table1Button_Click(object sender, RoutedEventArgs e)
+        private void Table1Button_Click(object sender, RoutedEventArgs e)
         {
-            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE();
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(1);
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
+
+        private void Table3Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(3);
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
+
+        private void Table2Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(2);
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
+
+        private void Table4Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(4);
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
+
+        private void Table5Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(5);
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
+
+        private void Table6Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(6);
+            this.Visibility = Visibility.Hidden;
+            specific.Show();
+        }
+
+        private void Table7Button_Click(object sender, RoutedEventArgs e)
+        {
+            SPECIFICTABLEPAGE specific = new SPECIFICTABLEPAGE(7);
             this.Visibility = Visibility.Hidden;
             specific.Show();
         }

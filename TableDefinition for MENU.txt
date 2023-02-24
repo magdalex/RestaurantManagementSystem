@@ -1,0 +1,97 @@
+CREATE TABLE [dbo].[MenuTable] (
+    [FoodID]    INT          NOT NULL,
+    [FoodName]  VARCHAR (50) NULL,
+    [Price]     FLOAT (53)   NULL,
+    [Inventory] INT          NULL,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[WaiterTable] (
+    [Username] VARCHAR (50) NOT NULL,
+    [Password] VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Username] ASC)
+);
+
+CREATE TABLE [dbo].[SalesHisotryTable] (
+    [Invoice_Number] INT        IDENTITY (10000, 1) NOT NULL,
+    [Invoice_Total]  REAL       NULL,
+    [Waiter_Name]    NCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Invoice_Number] ASC)
+);
+
+CREATE TABLE [dbo].[Table1] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[Table2] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[Table3] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[Table4] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[Table5] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[Table6] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+CREATE TABLE [dbo].[Table7] (
+    [FoodID]       INT          NOT NULL,
+    [FoodName]     VARCHAR (50) NULL,
+    [Price]        FLOAT (53)   NOT NULL,
+    [Quantity]     INT          NULL,
+    [Line_Total]   AS           ([Price]*[Quantity]) PERSISTED,
+    PRIMARY KEY CLUSTERED ([FoodID] ASC)
+);
+
+INSERT INTO dbo.MenuTable VALUES (1234,'Sandwich', 8.99, 50);
+INSERT INTO dbo.MenuTable VALUES (1235,'Fries', 5.99, 65);
+INSERT INTO dbo.MenuTable VALUES (1236,'Coke', 3.59, 15);
+INSERT INTO dbo.MenuTable VALUES (1237,'Pepsi', 3.59, 43);
+INSERT INTO dbo.MenuTable VALUES (1238,'Ice-Cream', 4.65, 12);
+INSERT INTO dbo.MenuTable VALUES (1239,'Cheese Burger', 6.75, 32);
+INSERT INTO dbo.MenuTable VALUES (1240,'Hot Dog', 2.99, 80);
+INSERT INTO dbo.MenuTable VALUES (1241,'Grilled Cheese', 4.99, 20);
+INSERT INTO dbo.MenuTable VALUES (1242,'Water', 1.99, 50);
+INSERT INTO dbo.MenuTable VALUES (1243,'Extra Mayo', .99, 70);
+
+mock variables to add into database for MENU
+

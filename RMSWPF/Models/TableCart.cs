@@ -7,5 +7,7 @@
         public float Price { get; set; }
         public int qtyCart { get; set; }
         public float lineTotal { get; set; }
+
+        public int tableNumber { get; set; }
     }
 }

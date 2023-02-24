@@ -28,21 +28,31 @@ namespace RMSWPF
         SqlConnection con;
         HttpClient client = new HttpClient();
         public string[] operations { get; set; }
-        public SPECIFICTABLEPAGE()
+        public int tableValueGlobal;
+        public SPECIFICTABLEPAGE(int input)
         {
             InitializeComponent();
+            int tableValue = input;
+            MessageBox.Show("Welcome to table " + tableValue);
+            tableValueGlobal = tableValue;
+            tableNumber.Text = tableValue.ToString();
+
+            waiterNameBox.Text = Models.GlobalValues.WaiterID.ToString(); // ADDED THIS TO DISPLAY THE WAITERID!
+
             client.BaseAddress = new Uri("https://localhost:7083/api/"); //this is the base path for me that got auto-generated-- the port number may be different for you
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
+       
+
 
         //go to MAIN PAGE
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
+            TABLELAYOUTPAGE tablelayout = new TABLELAYOUTPAGE();
             this.Visibility = Visibility.Hidden;
-            main.Show();
+            tablelayout.Show();
         }
         
         //reminder what's on the menu, popup that doesn't close the specific table page?
@@ -56,11 +66,11 @@ namespace RMSWPF
         {
             try
             {
-                string connectionString = "Data Source=DESKTOP-5DGA5O7\\SQLEXPRESS;Initial Catalog=DesptopAppDevRestaurantSystem;Integrated Security=True;TrustServerCertificate=True;MultipleActiveResultSets=True"; //change this to your connection string!
-                con = new SqlConnection(connectionString);
-                con.Open();
-                MessageBox.Show("Connection established successfully.");
-                con.Close();
+               // string connectionString = "Data Source=DESKTOP-V50PKCU\\SQLEXPRESS;Initial Catalog=RestaurantManagementSystem;Integrated Security=True;TrustServerCertificate=True;MultipleActiveResultSets=True"; //change this to your connection string!
+                //con = new SqlConnection(connectionString);
+               // con.Open();
+                MessageBox.Show("Connected to table "+ tableValueGlobal);
+                //con.Close();
 
                 refreshDataButton_Click(sender, e);
 
@@ -74,27 +84,27 @@ namespace RMSWPF
         {
             try
             {
-                this.RefreshCart();
-                this.ViewCartTotal();
+                this.RefreshCart(tableValueGlobal);
+                this.ViewCartTotal(tableValueGlobal);
             }
             catch
             {
                 MessageBox.Show("Could not refresh cart.");
             }
         }
-        private async void RefreshCart() //this method works
+        private async void RefreshCart(int tableValue) //this method works
         {
 
-            var response = await client.GetStringAsync("TableCart/GetAllCart/");
+            var response = await client.GetStringAsync("TableCart/GetAllCart/"+tableValue);
             var cart = JsonConvert.DeserializeObject<Response>(response).listTableCart;
 
             tableCartGrid.ItemsSource = cart;
 
         }
-        private async void ViewCartTotal()
+        private async void ViewCartTotal(int tableValue)
         {
 
-            var response = await client.GetStringAsync("TableCart/ViewCartTotal/");
+            var response = await client.GetStringAsync("TableCart/ViewCartTotal/"+tableValue);
             var cartTotal = JsonConvert.DeserializeObject<Response>(response).finalPrice;
 
             finalPriceBox.Text = cartTotal.ToString();
@@ -113,7 +123,7 @@ namespace RMSWPF
                     qtyCart = int.Parse(quantity.Text)
                 };
 
-                var response = await client.PostAsJsonAsync("TableCart/AddToCart/", tableCart);
+                var response = await client.PostAsJsonAsync("TableCart/AddToCart/"+tableValueGlobal, tableCart);
 
                 MessageBox.Show(response.StatusCode.ToString());
 
@@ -136,7 +146,7 @@ namespace RMSWPF
                 tableCart.Price = float.Parse(price.Text);
                 tableCart.qtyCart = int.Parse(quantity.Text);
 
-                HttpResponseMessage response = await client.PutAsJsonAsync<TableCart>("TableCart/UpdateCartItem/" + tableCart.FoodID, tableCart);
+                HttpResponseMessage response = await client.PutAsJsonAsync<TableCart>("TableCart/UpdateCartItem/" + tableCart.FoodID+"/"+tableValueGlobal, tableCart);
 
                 MessageBox.Show("Updated food successfully in the Cart.");
 
@@ -157,7 +167,7 @@ namespace RMSWPF
                     FoodID = int.Parse(foodID.Text)
                 };
 
-                var response = await client.DeleteAsync("TableCart/DeleteCartItem/" + tableCart.FoodID);
+                var response = await client.DeleteAsync("TableCart/DeleteCartItem/" + tableCart.FoodID+"/"+tableValueGlobal);
                 MessageBox.Show("Deleted food from Cart.");
 
                 refreshDataButton_Click(sender, e); //this auto clicks the refresh button at the end of the operation so the user doesnt have to manually press it
@@ -170,7 +180,27 @@ namespace RMSWPF
 
         private async void checkoutButton_Click(object sender, RoutedEventArgs e)
         {
-            var response = await client.DeleteAsync("TableCart/PayAndClearCart/");
+            /*
+             * 
+             *  get all from cart+tableValueGlobal
+             *  if(success)
+             *  serialize into json
+             *  else{return error}
+             *  run postTotal
+            
+            var response = await client.GetStringAsync("TableCart/ViewCartTotal/"+tableValue);
+            var cartTotal = JsonConvert.DeserializeObject<Response>(response).finalPrice;
+
+            finalPriceBox.Text = cartTotal.ToString();
+
+            SalesHistory.totalPrice
+
+            var postTotal = await client.PostAsync("/SalesHistory/UpdateSalesHistory", cartObject)
+            * 
+            * 
+            * */
+
+            var response = await client.DeleteAsync("TableCart/PayAndClearCart/" + tableValueGlobal);
 
             MessageBox.Show("Payment Success");
 
