@@ -1,0 +1,18 @@
+﻿<Window x:Class="RMSWPF.MenuPOPUP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RMSWPF"
+        mc:Ignorable="d"
+        Title="MenuPOPUP" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Button x:Name="closeButton" Content="CLOSE" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="closeButton_Click"/>
+            <Button x:Name="connectButton" Content="CONNECT" HorizontalAlignment="Left" Margin="627,47,0,0" VerticalAlignment="Top" Height="46" Width="135" FontSize="20" Click="connectButton_Click"/>
+            <DataGrid x:Name="menuGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,108,202,10" FontSize="20"/>
+            <Label x:Name="popUpMenu" Content="MENU" HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+        </Grid>
+    </Grid>
+</Window>

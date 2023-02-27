@@ -1,0 +1,327 @@
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.exe
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.deps.json
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.runtimeconfig.json
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.AssemblyReference.cache
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.cache
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.lref
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.g.resources
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfoInputs.cache
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfo.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CoreCompileInputs.cache
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\refint\RMSWPF.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.genruntimeconfig.cache
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\ref\RMSWPF.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.baml
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CopyComplete
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.g.cs
+C:\Users\Kazic\Desktop\School\Desktop Application Development\Final Project\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.exe
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.deps.json
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.runtimeconfig.json
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.AssemblyReference.cache
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.cache
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.lref
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.baml
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.g.resources
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfoInputs.cache
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfo.cs
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CoreCompileInputs.cache
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\refint\RMSWPF.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.genruntimeconfig.cache
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\ref\RMSWPF.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jklpp\OneDrive\Desktop\VS Workspace\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CopyComplete
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.exe
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Net.Http.Formatting.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.AssemblyReference.cache
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CheckoutPage.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CreateAccount.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\LoginPage.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MenuPage.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MenuPopUp.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SalesHistory.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SpecificTablePage.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\TableLayoutPage.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.cache
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.lref
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SpecificTablePage.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\TableLayoutPage.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.g.resources
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfoInputs.cache
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfo.cs
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CoreCompileInputs.cache
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\refint\RMSWPF.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CheckoutPage.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\CreateAccount.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\LoginPage.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MenuPage.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\MenuPopUp.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\SalesHistory.baml
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CopyComplete
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.deps.json
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.runtimeconfig.json
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.genruntimeconfig.cache
+C:\Users\-_-\Desktop\RestaurantManagementSystem\RMSWPF\obj\Debug\net6.0-windows\ref\RMSWPF.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.exe
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.deps.json
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.runtimeconfig.json
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Net.Http.Formatting.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\comerr64.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\gssapi64.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\k5sprt64.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\krb5_64.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\krbcc64.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.AssemblyReference.cache
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.cache
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.lref
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.baml
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.g.resources
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfoInputs.cache
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfo.cs
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CoreCompileInputs.cache
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CopyComplete
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\refint\RMSWPF.dll
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.genruntimeconfig.cache
+C:\Users\David\Desktop\KAZIS CRAP\Dennis\RestaurantManagementSystem-dennis-branch\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\ref\RMSWPF.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.exe
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.deps.json
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.runtimeconfig.json
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Net.Http.Formatting.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\comerr64.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\gssapi64.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\k5sprt64.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\krb5_64.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\krbcc64.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.AssemblyReference.cache
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.cache
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF_MarkupCompile.lref
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CHECKOUTPAGE.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\CREATEACCOUNT.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\LOGINPAGE.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MENUPAGE.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\MenuPOPUP.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SALESHISTORY.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\SPECIFICTABLEPAGE.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\TABLELAYOUTPAGE.baml
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.g.resources
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfoInputs.cache
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.AssemblyInfo.cs
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CoreCompileInputs.cache
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.csproj.CopyComplete
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\refint\RMSWPF.dll
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.pdb
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\RMSWPF.genruntimeconfig.cache
+C:\Users\-_-\Desktop\Submission Version\RestaurantManagementSystem-dennis-branch\RMSWPF\obj\Debug\net6.0-windows\ref\RMSWPF.dll

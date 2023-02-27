@@ -1,0 +1,16 @@
+﻿<Window x:Class="RMSWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RMSWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="menuButton" Content="MENU" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="menuButton_Click"/>
+        <Button x:Name="tableLayoutButton" Content="TABLE LAYOUT" HorizontalAlignment="Center" Margin="0,156,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="tableLayoutButton_Click"/>
+        <Button x:Name="salesHistoryButton" Content="SALES HISTORY" HorizontalAlignment="Center" Margin="0,231,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="salesHistoryButton_Click"/>
+        <Button x:Name="logoutButton" Content="LOGOUT" HorizontalAlignment="Center" Margin="0,304,0,0" VerticalAlignment="Top" Height="46" Width="188" FontSize="20" Click="logoutButton_Click"/>
+
+    </Grid>
+</Window>
